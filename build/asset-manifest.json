@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/cgweb/static/css/main.17ef63f5.css",
+    "main.js": "/cgweb/static/js/main.b8483c9f.js",
+    "static/js/453.5ad6f19a.chunk.js": "/cgweb/static/js/453.5ad6f19a.chunk.js",
+    "static/media/IMG_080.png": "/cgweb/static/media/IMG_080.e0e900f78117ce1a9f29.png",
+    "static/media/IMG_8080.jpeg": "/cgweb/static/media/IMG_8080.c1309a2f2859b43a7016.jpeg",
+    "static/media/kkk52.png": "/cgweb/static/media/kkk52.5e92b2fffda319db44f6.png",
+    "static/media/IMG_5628.PNG": "/cgweb/static/media/IMG_5628.65b42b1929a8c465c42b.PNG",
+    "static/media/IMG_11.jpeg": "/cgweb/static/media/IMG_11.48db67e3628b020d10dc.jpeg",
+    "static/media/IMG_0031.PNG": "/cgweb/static/media/IMG_0031.cab59f808b6ae9e43e0d.PNG",
+    "static/media/IMG_5577.PNG": "/cgweb/static/media/IMG_5577.4f53ba4c6d4886a85346.PNG",
+    "static/media/IMG_0030.PNG": "/cgweb/static/media/IMG_0030.837f8c2f72e587ec227a.PNG",
+    "static/media/IMG_0029.PNG": "/cgweb/static/media/IMG_0029.1f0c88f318dcb91527f5.PNG",
+    "static/media/IMG_3033.JPG": "/cgweb/static/media/IMG_3033.92f07e2d1edc495e8b58.JPG",
+    "static/media/IMG_3034.JPG": "/cgweb/static/media/IMG_3034.3a838e39674dfe2c2ecf.JPG",
+    "static/media/IMG_3035.JPG": "/cgweb/static/media/IMG_3035.f8e656e3c9de6be7ecde.JPG",
+    "static/media/IMG_3036.JPG": "/cgweb/static/media/IMG_3036.e24b95d895316131cc42.JPG",
+    "static/media/IMG_888.jpeg": "/cgweb/static/media/IMG_888.3bb2a412943085da9b35.jpeg",
+    "static/media/IMG_172.jpeg": "/cgweb/static/media/IMG_172.b6ac1b33d07655c94945.jpeg",
+    "static/media/IMG_7297.JPG": "/cgweb/static/media/IMG_7297.86b6c1037cc0dd18985d.JPG",
+    "static/media/IMG_0131.jpeg": "/cgweb/static/media/IMG_0131.d29ec6e6302b1c8b24d2.jpeg",
+    "static/media/IMG_272.jpeg": "/cgweb/static/media/IMG_272.ab796a03c783ff08197e.jpeg",
+    "static/media/IMG_0666.jpeg": "/cgweb/static/media/IMG_0666.6af1ed45ffa425511203.jpeg",
+    "static/media/IMG_0231.jpeg": "/cgweb/static/media/IMG_0231.c70a70f15301fd4ec9ed.jpeg",
+    "static/media/IMG_072.jpeg": "/cgweb/static/media/IMG_072.7abe8e71f92207537252.jpeg",
+    "index.html": "/cgweb/index.html",
+    "main.17ef63f5.css.map": "/cgweb/static/css/main.17ef63f5.css.map",
+    "main.b8483c9f.js.map": "/cgweb/static/js/main.b8483c9f.js.map",
+    "453.5ad6f19a.chunk.js.map": "/cgweb/static/js/453.5ad6f19a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17ef63f5.css",
+    "static/js/main.b8483c9f.js"
+  ]
+}
