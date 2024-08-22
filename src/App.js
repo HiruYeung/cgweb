@@ -1,3 +1,4 @@
+import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Root";
 import About from "./About";
@@ -6,19 +7,18 @@ import Illustration from "./Illustration";
 import Contact from "./Contact";
 import CodeProject from "./CodeProject";
 import "./App.css";
-import Home from "./Home"
+import Home from "./Home";
 
 const router = createBrowserRouter([
   {
     path: "/cgweb",
     element: <Root />,
     children: [
-      { path: "Home" , element: <Home />},
+      { path: "Home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "blog/:id?", element: <Blog /> },
       { path: "Illustration", element: <Illustration /> },
       { path: "CodeProject", element: <CodeProject /> },
-     
     ],
   },
 ]);
@@ -34,3 +34,4 @@ function App() {
 }
 
 export default App;
+

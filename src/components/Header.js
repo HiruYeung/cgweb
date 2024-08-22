@@ -28,7 +28,7 @@ const Header = () => {
         
       </div>
 
-      <div
+      <div className="div"
         style={{
           display: "flex",
           justifyContent: "center",
@@ -38,16 +38,16 @@ const Header = () => {
           fontFamily: "Times New Roman",
         }}
       >
-      <div style={{ marginRight: "50rem",}}>
-        <Link to="/cgweb/Home" className="links">Home</Link>
-        <Link to="/cgweb/about" className="link">About</Link>
-      </div>
-        <Link to="/cgweb/blog" className="link">Blog</Link>
-        <Link to="/cgweb/Illustration" className="link">Illustration</Link>
-        <Link to="/cgweb/CodeProject" className="link">CodeProject</Link>
-        
-        {/* <ScrollableImageContainer/> */}
-      </div>
+        <div className="links-container">
+            <Link to="/cgweb/Home" className="links">Home</Link>
+            <Link to="/cgweb/about" className="links">About</Link>
+            <Link to="/cgweb/blog" className="link">Blog</Link>
+            <Link to="/cgweb/Illustration" className="link">Illustration</Link>
+            <Link to="/cgweb/CodeProject" className="link">CodeProject</Link>
+            
+            {/* <ScrollableImageContainer/> */}
+          </div>
+        </div>
     </div>
   );
 };

@@ -118,3 +118,9 @@
     margin-bottom: 100px;
 }
 
+@media (min-width: 768px) {
+    .Blog {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }

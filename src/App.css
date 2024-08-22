@@ -26,13 +26,12 @@
 }
 
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (min-width: 768px) {
+  .App {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
   }
 }
+
 
