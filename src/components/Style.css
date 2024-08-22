@@ -1,0 +1,16 @@
+.link {
+    color: white; /* 更改为你想要的颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    
+  }
+
+.links {
+  padding-right: 1rem;
+  color: white; /* 更改为你想要的颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+
+.div {
+    background-color: rgb(30, 9, 9);
+}
+  

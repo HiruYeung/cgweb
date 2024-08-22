@@ -1,4 +1,4 @@
-import IMG_0666 from './imageL/IMG_0666.jpeg';
+import IMG_0666 from './imageL/IMG_0660.jpeg';
 import IMG_8080 from './imageL/IMG_8080.jpeg';
 import IMG_5577 from './imageL/IMG_5577.PNG';
 import IMG_0029 from './imageL/IMG_0029.PNG';
@@ -12,7 +12,7 @@ const Illustration = () => {
       <>
       <div className='container1'>
           <div>
-            <img src={IMG_0666} className="IMG_0666" />
+            <img src={IMG_0666} className="IMG_0660" />
           </div>
           <div>
             <img src={IMG_8080} className="IMG_8080" />

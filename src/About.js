@@ -1,10 +1,12 @@
 import './About.css';
 import IMG_888 from  './imageA/IMG_888.jpeg';
+import ScrollableImageContainer from "./components/ScrollableImageContainer";
 
 const About = () => {
   return (
   <div className="About">
     <div>
+    <ScrollableImageContainer/>
       <p>
         楊絮心
         (Yeung Sui Sum)<br />

@@ -4,17 +4,20 @@ import About from "./About";
 import Blog from "./Blog";
 import Illustration from "./Illustration";
 import Contact from "./Contact";
+import CodeProject from "./CodeProject";
 import "./App.css";
+import Home from "./Home"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/cgweb",
     element: <Root />,
     children: [
-      { path: "/about", element: <About /> },
-      { path: "/blog/:id?", element: <Blog /> },
-      { path: "/Illustration", element: <Illustration /> },
-      { path: "/Contact", element: <Contact /> },
+      { path: "Home" , element: <Home />},
+      { path: "about", element: <About /> },
+      { path: "blog/:id?", element: <Blog /> },
+      { path: "Illustration", element: <Illustration /> },
+      { path: "CodeProject", element: <CodeProject /> },
      
     ],
   },

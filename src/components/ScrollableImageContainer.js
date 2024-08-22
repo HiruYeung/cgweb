@@ -1,9 +1,11 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './ScrollableImageContainer.css';
-import IMG_11 from './images/IMG_11.jpeg';
+import IMG_12 from './images/IMG_12.jpeg';
 import IMG_5628 from './images/IMG_5628.PNG';
-import IMG_080 from './images/IMG_080.png';
-import kkk52 from './images/kkk52.png';
+import IMG_080 from './images/080222.png';
+import kkk from './images/52kkk.png';
+import Arrow from './images/arrow.png';
+import Arrow0 from './images/arrow0.png'
 
 const ScrollableImageContainer = () => {
     const imageContainerRef = useRef(null);
@@ -13,7 +15,7 @@ const ScrollableImageContainer = () => {
     const [startX, setStartX] = useState(0);
     const [scrollLeft, setScrollLeft] = useState(0);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [IMG_11, IMG_5628, IMG_080, kkk52];
+    const images = [IMG_12, IMG_5628, IMG_080, kkk];
 
     const handleMouseDown = (e) => {
         setIsMouseDown(true);
@@ -84,16 +86,18 @@ const ScrollableImageContainer = () => {
                 </div>
             </div>
             <div className="image-container" ref={imageContainerRef}>
-                <div className="arrow-container" onClick={handlePrevImage}>
-                    <button className="arrow-button">&lt;</button>
+                <div  onClick={handlePrevImage}>
+                    <img src={Arrow0} width={60} />
                 </div>
                 <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} className="scrollable-image" />
-                <div className="arrow-container" onClick={handleNextImage}>
-                    <button className="arrow-button">&gt;</button>
+                <div  onClick={handleNextImage}>
+                    <img src={Arrow} width={60}/>
                 </div>
             </div>
         </div>
     );
 };
+
+//&lt; //&gt;
 
 export default ScrollableImageContainer;
