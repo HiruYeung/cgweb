@@ -23,8 +23,8 @@ import IMG_5628 from './imageBBBB/IMG_5628.PNG';
 const Blog = () => {
   return (
     <>
-
-      <div className='container1'>
+    <div style={{ gap: '0'}}>
+      <div className='container1' >
         <div>
           <img src={IMG_0031} className="IMG_0031" />
         </div>
@@ -73,6 +73,7 @@ const Blog = () => {
        <div>
           <img src={IMG_5628} className="IMG_5628" />
         </div>
+  </div>
     </>
   );
 };

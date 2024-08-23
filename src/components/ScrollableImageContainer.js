@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './ScrollableImageContainer.css';
-import IMG_12 from './images/IMG_12.jpeg';
 import IMG_5628 from './images/IMG_5628.PNG';
 import IMG_080 from './images/080222.png';
 import kkk from './images/52kkk.png';
@@ -15,7 +14,7 @@ const ScrollableImageContainer = () => {
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [IMG_12, IMG_5628, IMG_080, kkk];
+  const images = [IMG_5628, IMG_080, kkk];
 
   const handleMouseDown = (e) => {
     setIsMouseDown(true);
