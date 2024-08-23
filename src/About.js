@@ -5,7 +5,7 @@ import ScrollableImageContainer from "./components/ScrollableImageContainer";
 const About = () => {
   return (
   <div className="About">
-    <div>
+    <div className='Scroll'>
     <ScrollableImageContainer/>
       <p>
         楊絮心

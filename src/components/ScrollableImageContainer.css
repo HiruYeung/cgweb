@@ -1,12 +1,9 @@
-.container {
-    width: 80%;
+/* .container {
+    width: 100%;
     height: 600px;
     position: relative;
-    padding-left: 120px;
-
+    display:flexbox
   }
-  
- 
   
   .scroll-bar {
     width: 100%;
@@ -15,16 +12,16 @@
     cursor: pointer;
     position: relative;
     margin-top: 10px; /* Adjust as needed */
-  }
+  /* }
   
   .scroll-thumb {
     height: 100%;
     background: #888;
-    width: 60px; /* Initial width, will be updated dynamically */
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    border-radius: 4px; /* Optional rounded corners */
+    border-radius: 4px; 
   }
 
   .scroll-thumb{
@@ -36,10 +33,16 @@
 
   .scroll-thumb1{
     font-size: 50px;
-    margin-left: 241px;
-    width: 690px;
+
+    padding-top: 1px;
+    width: 100%;
     background-color: rgba(92, 63, 73, 0.5);
   }
+
+  .image-container{
+    display: flexblox;
+  } */ 
+
 
  /* .scrollable-image{
     height: 110%;
@@ -67,3 +70,21 @@
     border: none;
     cursor: pointer;
   } */
+
+  .container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing as needed */
+  }
+  
+  

@@ -26,3 +26,7 @@
 .Tale {
     margin-bottom: 100px;
 }
+
+.Scroll {
+    display:flexbox
+}
