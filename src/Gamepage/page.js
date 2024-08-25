@@ -24,7 +24,6 @@ const Page = () => {
           <img src={Blue2} alt="Blue2" style={{ display: 'flex', gap: '0', width:'30%'}}/>
         </div>
         
-        
         <Modal keepMounted open={gameOpen} onClose={() => setGameOpen(false)}>
           <Box
             sx={{
@@ -40,8 +39,11 @@ const Page = () => {
               transform: 'translate(-50%, -50%)', // 居中
             }}
           >
-            <IconButton aria-label="close" onClick={() => setGameOpen(false)} sx={{ alignSelf: 'flex-end' }}>
-              <Close />
+            <IconButton aria-label="close" onClick={() => setGameOpen(false)} sx={{ alignSelf: 'flex-end', color: 'white', top: 0, right: 280 }}>
+              <Close onClick={() => {
+              console.log(bgmRef);
+              bgmRef.current.pause();
+            }}/>
             </IconButton>
             <button onClick={() => {
               console.log(bgmRef);

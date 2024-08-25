@@ -31,7 +31,7 @@ const About = () => {
       </p>
       <p>
          
-        聯絡請郵件:ehiruac@gmail.com
+        聯絡請郵件:angelyeung238@gmail.com
       </p>
       <img src={IMG_888} className='IMG_888'/>
     </div>
