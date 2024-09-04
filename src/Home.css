@@ -1,19 +1,30 @@
-.Home {
-    background-image: url('https://i.imgur.com/TCJcg8X.png');
 
-}
+@media (min-width: 668px) {
+    .Home {
+      background-image: url('https://i.imgur.com/TCJcg8X.png');
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-.Ween3 {
-    margin: 1rem;
-    width: 35rem;
-}
+    .container1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: 500px;
+    }
 
-.Ween6h {
-    margin: 1rem;
-    width: 35rem;
-}
+    .Ween3 {
+        margin: 1rem;
+        width: 20rem;
+    }
 
-.Ween12h {
-    margin: 1rem;
-    width: 35rem;
+    .Ween6h {
+        margin: 1rem;
+        width: 35rem;
+    }
+
+    .Ween12h {
+        margin: 1rem;
+        width: 35rem;
+    }
 }

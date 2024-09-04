@@ -1,12 +1,37 @@
+@media (min-width: 669px) {
+    .logo {
+        gap: 0px;
+        width: 1440px;
+        height: 500px;
+    }
+    
+}
 
+@media (max-width: 668px) {
 
-.logo {
-    gap: 0px;
-    width: 1440px;
-    height: 500px
+    
+    .logo {
+        gap: 0px;
+        height: 350px;
+    }
+
+    .Plays {
+
+        height: 150px;
+    }
+    
+    .Blue1 {
+        
+        display: none;
+    }
+
+    .Blue2 {
+        width: 10px;
+    }
 }
 
 .scroll-thumb2{
+    display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
