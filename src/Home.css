@@ -4,6 +4,7 @@
       background-image: url('https://i.imgur.com/TCJcg8X.png');
       flex-direction: row;
       justify-content: space-between;
+      height: 900px;
     }
 
     .container1 {
