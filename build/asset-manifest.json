@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cgweb/static/css/main.c22ac79d.css",
-    "main.js": "/cgweb/static/js/main.1556ed63.js",
+    "main.css": "/cgweb/static/css/main.87b5ee1b.css",
+    "main.js": "/cgweb/static/js/main.a3ab5854.js",
     "static/js/453.bdfd9625.chunk.js": "/cgweb/static/js/453.bdfd9625.chunk.js",
     "static/media/Ultimate_Design.mp3": "/cgweb/static/media/Ultimate_Design.83188d98b708f0acb0ea.mp3",
     "static/media/IMG_8080.jpeg": "/cgweb/static/media/IMG_8080.c1309a2f2859b43a7016.jpeg",
@@ -21,6 +21,7 @@
     "static/media/Logoimg.jpg": "/cgweb/static/media/Logoimg.2f138d41f7bd17f8665e.jpg",
     "static/media/home2.jpg": "/cgweb/static/media/home2.07358f11513399218dfb.jpg",
     "static/media/home3.jpg": "/cgweb/static/media/home3.5423daa84131541dfb8b.jpg",
+    "static/media/Kmb1.jpeg": "/cgweb/static/media/Kmb1.84e38f1bacb557877fca.jpeg",
     "static/media/IMG_172.jpeg": "/cgweb/static/media/IMG_172.b6ac1b33d07655c94945.jpeg",
     "static/media/IMG_7297.JPG": "/cgweb/static/media/IMG_7297.86b6c1037cc0dd18985d.JPG",
     "static/media/IMG_0131.jpeg": "/cgweb/static/media/IMG_0131.d29ec6e6302b1c8b24d2.jpeg",
@@ -29,15 +30,16 @@
     "static/media/IMG_0231.jpeg": "/cgweb/static/media/IMG_0231.c70a70f15301fd4ec9ed.jpeg",
     "static/media/IMG_0660.jpeg": "/cgweb/static/media/IMG_0660.e879bfda0eadbabdca30.jpeg",
     "static/media/IMG_072.jpeg": "/cgweb/static/media/IMG_072.7abe8e71f92207537252.jpeg",
+    "static/media/ToDo.jpeg": "/cgweb/static/media/ToDo.0653458488dc1ac426c5.jpeg",
     "static/media/arrow.png": "/cgweb/static/media/arrow.86663ae87a3b8ccb36f7.png",
     "static/media/arrow0.png": "/cgweb/static/media/arrow0.174754606719b67598ba.png",
     "index.html": "/cgweb/index.html",
-    "main.c22ac79d.css.map": "/cgweb/static/css/main.c22ac79d.css.map",
-    "main.1556ed63.js.map": "/cgweb/static/js/main.1556ed63.js.map",
+    "main.87b5ee1b.css.map": "/cgweb/static/css/main.87b5ee1b.css.map",
+    "main.a3ab5854.js.map": "/cgweb/static/js/main.a3ab5854.js.map",
     "453.bdfd9625.chunk.js.map": "/cgweb/static/js/453.bdfd9625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22ac79d.css",
-    "static/js/main.1556ed63.js"
+    "static/css/main.87b5ee1b.css",
+    "static/js/main.a3ab5854.js"
   ]
 }
