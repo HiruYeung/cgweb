@@ -4,12 +4,16 @@ import './Home.css';
 import Ween3 from './imageHome/home3.jpg';
 import Ween6h from './imageHome/home2.jpg'
 import Ween12h from './imageHome/home1.jpg';
+import { Outlet } from "react-router";
+import Header from "./components/Header";
 
 
 
 const Home = () => {
   return (
     <>
+    <Header/>
+    <Outlet />
     <Game />
     <div className="Home" style={{ gap: '0', position: 'absolute'}}>
       <img src={Ween3} className='Ween3'/>

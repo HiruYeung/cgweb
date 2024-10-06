@@ -12,7 +12,7 @@ import Home from "./Home";
 const router = createBrowserRouter([
   {
     path: "/cgweb",
-    element: <Root />,
+    element: <Home />,
     children: [
       { path: "Home", element: <Home /> },
       { path: "about", element: <About /> },
