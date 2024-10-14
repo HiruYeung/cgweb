@@ -39,7 +39,7 @@ const Header = () => {
         }}
       >
         <div className="links-container">
-            <Link to="/cgweb" className="links">Home</Link>
+            <Link to="/cgweb/Home" className="links">Home</Link>
             <Link to="/cgweb/about" className="links">About</Link>
             <Link to="/cgweb/blog" className="link">Blog</Link>
             <Link to="/cgweb/Illustration" className="link">Illustration</Link>
