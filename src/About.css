@@ -1,4 +1,4 @@
-
+/* 
 .About {
     display: grid;
     justify-content: center;
@@ -8,7 +8,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
-}
+} */
 
 
 
@@ -18,7 +18,11 @@
     align-items: center;
     margin: auto;
     height:400px ;
-    width:300px ;
+    width:300px;
+    background-color: white;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 20px;
 }
 
 /* .Tale {

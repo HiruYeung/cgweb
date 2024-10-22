@@ -23,7 +23,7 @@ const About = () => {
             跟商界 個別人士合作建立Project<br />
             例如遊戲設計 宣傳圖等
         </div>
-        <div className='Tale'>
+        <div >
           <p>
             使用軟件為 PhotoShop, Clip Studio Paint
           </p>
@@ -31,7 +31,10 @@ const About = () => {
             
             聯絡請郵件:angelyeung238@gmail.com
           </p>
-          <img src={IMG_888} className='IMG_888'/>
+              <p>
+                <img src={IMG_888} className='IMG_888'/>
+              </p>
+         
         </div>
         </div>
       
