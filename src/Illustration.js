@@ -10,7 +10,7 @@ import './Illustration.css';
 const Illustration = () => {
     return (
       <>
-      <div className='container1'>
+      <div className='container1' style={{ gap: '0'}}>
           <div>
             <img src={IMG_0666} className="IMG_0660" />
           </div>
