@@ -56,3 +56,37 @@
 }
 
 
+@media (min-width: 320px) and (max-width: 430px) {
+  .Header {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    font-size: 12px;
+    word-spacing: 10px;
+
+  }
+}
+
+@media (min-width: 319px) and (max-width: 430px) {
+  .logo {
+      width: 430px;
+      height: 150px;
+  }
+  .Plays {
+
+    height: 50px;
+  }
+  
+  .Blue1 {
+    
+    display: none;
+  }
+  
+  .Blue2 {
+    width: 10px;
+  }
+}
+
+
+
+

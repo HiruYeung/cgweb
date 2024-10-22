@@ -16,7 +16,7 @@ const Header = () => {
       }}
       className="Header"
     >
-          <div style={{ 
+          {/* <div style={{ 
             margin: "0px 20px",
         
             
@@ -26,21 +26,21 @@ const Header = () => {
         
             
             
-          </div>
+          </div> */}
 
           <div className="div"
             style={{
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              gap: "20px",   // Adds space between the links
+              // gap: "20px",   // Adds space between the links
               paddingTop: "12px",
               fontFamily: "Times New Roman",
             }}
           >
           <div >
             <div className="links-container">
-                <Link to="/cgweb/Home" className="links">Home</Link>
+                <Link to="/cgweb/Home" className="link">Home</Link>
                 <Link to="/cgweb/about" className="link">About</Link>
                 <Link to="/cgweb/blog" className="link">Blog</Link>
                 <Link to="/cgweb/Illustration" className="link">Illustration</Link>

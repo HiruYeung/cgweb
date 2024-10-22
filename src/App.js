@@ -23,7 +23,7 @@ const App = () => {
       <div className="App">
         <Router>
           <div >
-                <Header />
+                <Header className="Header"/>
                 <div className="content">
                   <Routes>
                     <Route path="/cgweb" element={<Home />} />
