@@ -33,59 +33,82 @@ const Home = () => {
                 {/* <Header />
                 <Outlet /> */}
                 <Game />
-                <div className="Home" style={{ gap: '0', position: 'absolute'}}>
+                <div className="Home" style={{ gap: '0', position: 'absolute', }}>
                   <img src={Ween3} className='Ween3'/>
                   <img src={Ween6h} className='Ween6h'/>
                   <img src={Ween12h} className='Ween12h'/>
                 </div>
-                <Box
-                    marginTop="56rem"
+                <Box className="Box1"
                     // marginBottom="3rem"
+                    // width={200}
                     sx={{
                       backgroundImage: `url(${G0})`,
-                      // backgroundPositionX: "20rem",
+                      backgroundPositionX: "20rem",
                       // backgroundSize: 'cover',
                       backgroundPositionX: "center",
                       display: 'flex',
                       justifyContent: 'center',
                       alignItems: 'center',
-                      height:"28rem"
-            
+                      position: 'relative',
+                      '@media (min-width: 320px) and (max-width: 430px)': {
+                        width: '430px',
+                        backgroundSize: 'cover'
+                      },
+                 
                    
                     
                     }}
                   >
                       <Typography
-                        variant="h2"
-                        fontSize="3rem"
+                        className="Box2"
                         fontFamily="GeorgiaRobotoSlab"
                         textAlign="center"
                         marginBottom="1.4rem"
                         sx={{
-                          filter: "blur(0.5px)",
-                          color: "white"
+                
+                          color: "white",
+                          '@media (min-width: 320px) and (max-width: 430px)': {
+                            width: '430px',
+                            backgroundSize: 'cover',
+
+                          },
+                     
             
                         }}
                       >
-                        Game Introduction
+                        <p className="GameIntro"
+                          sx={{
+                              filter: "blur(0.1px)",
+                
+            
+                        }}>
+                          Game Introduction
+                        </p>
             
                             <Typography
+                            className="Box3"
                             variant="body1"
                             component="p"
-                            fontSize="1.6rem"
                             fontFamily="GeorgiaRobotoSlab"
                             textAlign="center"
                             sx={{
-                              filter: "blur(0.5px)",
-                              color: "white"
+                 
+                    
                 
                             }}
                           >
-                            The Annual Halloween at Nathan Road in Mong Kok.
-                            <br />
-                            Help the protagonist, who is rushing home after work.
-                            <br />
-                            Avoid the cat ghosts and get home safely!
+                            <p className="BoxA"
+                              sx={{
+                      
+                
+            
+                        }}>
+                                The Annual Halloween at Nathan Road in Mong Kok.
+                                <br />
+                                Help the protagonist, who is rushing home after work.
+                                <br />
+                                Avoid the cat ghosts and get home safely!
+                            </p>
                           </Typography>
                       </Typography>
                   
@@ -95,7 +118,11 @@ const Home = () => {
                     paddingBottom="6rem"
                     sx={{
                       backgroundImage: `url(${Light})`,
-                      height:"170rem"
+                      height:"170rem",
+                      '@media (min-width: 320px) and (max-width: 430px)': {
+                        height: "73rem"
+
+                      },
                  
                     }}
                   >
@@ -130,6 +157,13 @@ const Home = () => {
                       marginBottom="2.2rem"
                       sx={{ filter: "blur(0.2px)",
                         color: "white",
+                        '@media (min-width: 320px) and (max-width: 430px)': {
+                            fontSize: '25px',
+                            backgroundSize: 'cover',
+                            filter: "blur(0px)",
+                            marginTop: "2rem"
+
+                          },
                        }}
                     >
                       Gameplay
@@ -142,6 +176,13 @@ const Home = () => {
                       textAlign="center"
                       sx={{ filter: "blur(0.2px)",
                         color: "white",
+                        '@media (min-width: 320px) and (max-width: 430px)': {
+                            fontSize: '10px',
+                            backgroundSize: 'cover',
+                            filter: "blur(0px)",
+                            marginTop: "2rem"
+
+                          },
                        }}
                     >
                       Renaiween JFSD11 is a single-player Timed Runner game.
@@ -159,6 +200,22 @@ const Home = () => {
                       margin="0 2rem"
                       marginTop="6rem"
                       gap="3rem"
+                      sx={{ 
+                        '@media (min-width: 320px) and (max-width: 430px)': {
+                            width: '200px',
+                            height: '10px',
+                            backgroundSize: 'cover',
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "column" ,
+                            marginLeft: '110px',
+                            marginTop: "8rem",
+                            gap: "1rem",
+                  
+                      
+
+                          },
+                       }}
                     >
                       <img
                           src={G1}
@@ -174,6 +231,16 @@ const Home = () => {
                           textAlign="center"
                           sx={{ filter: "blur(0.2px)",
                             color: "white",
+                            '@media (min-width: 320px) and (max-width: 430px)': {
+          
+                              display: "flex",
+                              justifyContent: "center",
+                              flexDirection: "column" ,
+                              fontSize: "15px",
+                              filter: "blur(0px)",
+   
+  
+                            },
                            }}
                         >
                           Cat Ghost
@@ -187,6 +254,22 @@ const Home = () => {
                       margin="0 2rem"
                       marginTop="6rem"
                       gap="3rem"
+                      sx={{ 
+                        '@media (min-width: 320px) and (max-width: 430px)': {
+                            width: '200px',
+                            height: '10px',
+                            backgroundSize: 'cover',
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "column" ,
+                            marginLeft: '110px',
+                            marginTop: "13rem",
+                            gap: "1rem",
+                  
+                      
+
+                          },
+                       }}
                     >
                       <img
                           src={G2}
@@ -202,11 +285,21 @@ const Home = () => {
                           textAlign="center"
                           sx={{ filter: "blur(0.2px)",
                             color: "white",
+                            '@media (min-width: 320px) and (max-width: 430px)': {
+          
+                              display: "flex",
+                              justifyContent: "center",
+                              flexDirection: "column" ,
+                              fontSize: "15px",
+                              filter: "blur(0px)",
+   
+  
+                            },
                            }}
                         >
-                          Cat Ghost
+                          Holly Cat
                           <br />
-                          Lose health and -20 points
+                          +20 points
                         </Typography>
                     </Box>
                     <Box
@@ -216,6 +309,22 @@ const Home = () => {
                       alignItems="center"
                       gap="2rem"
                       marginTop="6rem"
+                      sx={{ 
+                        '@media (min-width: 320px) and (max-width: 430px)': {
+                            width: '300px',
+                            height: '10px',
+                            backgroundSize: 'cover',
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "column" ,
+                            marginLeft: '60px',
+                            marginTop: "14rem",
+                            gap: "1rem",
+                  
+                      
+
+                          },
+                       }}
                     >
                       <img
                         src={G4}
@@ -231,6 +340,16 @@ const Home = () => {
                         textAlign="center"
                         sx={{ filter: "blur(0.2px)",
                           color: "white",
+                          '@media (min-width: 320px) and (max-width: 430px)': {
+          
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "column" ,
+                            fontSize: "15px",
+                            filter: "blur(0px)",
+ 
+
+                          },
                          }}
                       >
                         Up/Down Keys
@@ -247,26 +366,51 @@ const Home = () => {
                         marginBottom="1rem"
                         sx={{ filter: "blur(0.2px)",
                           color: "white",
+                          '@media (min-width: 320px) and (max-width: 430px)': {
+                            fontSize: '25px',
+                            backgroundSize: 'cover',
+                            filter: "blur(0px)",
+                            marginTop: "8rem"
+
+                          },
                          }}
                       >
                         Game Screen
                       </Typography>
-                      <img
-                        src={G5}
-                        alt="game-name-logo"
-                        width={750}
-                        height={236}
-                        unoptimized
-                      />
-                      <br></br>
-                      <img
-                        src={G6}
-                        alt="game-name-logo"
-                        width={750}
-                        height={236}
-                        unoptimized
-                      />
+                      <Box 
+                                sx={{ 
+                                  '@media (min-width: 320px) and (max-width: 430px)': {
+                                      width: '300px',
+                                      height: '10px',
+                                      backgroundSize: 'cover',
+                                      display: "flex",
+                                      justifyContent: "center",
+                                      flexDirection: "column" ,
+                                      marginLeft: '70px',
+                                      marginTop: "8rem",
+                                  
+                            
+                                
+          
+                                    },
+                                 }}>
+                          <img
+                            src={G5}
+                            alt="game-name-logo"
+                            width={750}
+                            height={236}
+                            unoptimized
                     
+                          />
+                          <br></br>
+                          <img
+                            src={G6}
+                            alt="game-name-logo"
+                            width={750}
+                            height={236}
+                            unoptimized
+                          />
+                    </Box>
             
             
                 </Box>

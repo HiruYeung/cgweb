@@ -11,6 +11,8 @@ const Header = () => {
         alignItems: "center",     // Centers the content vertically
         padding: "12px",
         fontFamily: "Times New Roman",
+        gap:"0"
+        
         
         
       }}

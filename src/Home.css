@@ -1,10 +1,27 @@
+@media (min-width: 320px) and (max-width: 430px) {
 
-@media (min-width: 668px) {
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display:table
+  }
+}
+
+
     .Home {
       background-image: url('https://i.imgur.com/TCJcg8X.png');
+      display: flex;
       flex-direction: row;
-      justify-content: space-between;
-      height: 900px;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 150px;
+      background-Size: 'cover';
+      width: 100%;
+
+
+
+
+      /* padding-right: 50px; */
     }
 
     .container1 {
@@ -12,22 +29,116 @@
         justify-content: center;
         margin: auto;
         height: 500px;
+      
     }
 
     .Ween3 {
         margin: 1rem;
-        width: 20rem;
+        width: 300px;
+        /* padding-left: 250px; */
     }
 
     .Ween6h {
         margin: 1rem;
-        width: 35rem;
+        width: 300px
     }
 
     .Ween12h {
         margin: 1rem;
-        width: 35rem;
+        width: 300px;
+
+        
     }
 
-   
+
+
+.Box1 {
+    margin-top: 20rem;
+    height:"28rem";
 }
+
+.Box2 {
+    font-Size: "5rem";
+    variant:"h2";
+    filter: "blur(0.5px)",
+
+}
+
+.Box3 {
+    font-Size:"1.6rem";
+    color:"white";
+    filter: "blur(0.5px)",
+}
+
+.GameIntro {
+    font-size: 50px;
+}
+
+.BoxA {
+    font-size: 40px;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 430px) {
+
+        .Home {
+            background-image: url('https://i.imgur.com/TCJcg8X.png');
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            background-Size: 'cover';
+            width: 109%;
+            /* padding-right: 50px; */
+            /* margin-right: -200px; */
+           
+            /* width: 200%; */
+        }
+
+ 
+        .Box1 {
+            margin-top: 4.5rem;
+            /* background-image: url('./imagesp/giphy0.png'); */
+            /* font-size: 10px; */
+            position: relative;
+      
+           
+        }
+        .Box2 {
+            /* font-size: 1px; */
+        }
+
+        .BoxA {
+            font-size: 8px;
+
+        }
+
+    
+
+        .Ween3 {
+            margin: 0.5rem;
+            width: 80px
+        }
+    
+        .Ween6h {
+            margin: 0.5rem;
+            width: 80px
+        }
+    
+        .Ween12h {
+            margin: 0.5rem;
+            width: 80px
+        }
+
+        .GameIntro {
+            font-size: 10px;
+        }
+
+  
+        
+  }
+
+

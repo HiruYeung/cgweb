@@ -1,5 +1,5 @@
-/* 
-.About {
+
+/* .About {
     display: grid;
     justify-content: center;
     height: 1300px;
@@ -8,8 +8,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
+
 } */
 
+.About {
+    margin-bottom: 500px;
+}
 
 
 .IMG_888 {

@@ -6,7 +6,7 @@ const About = () => {
   return (
   <div className="About">
     <div>
-    <ScrollableImageContainer/>
+        <ScrollableImageContainer/>
           <p>
             楊絮心
             (Yeung Sui Sum)<br />
@@ -31,9 +31,9 @@ const About = () => {
             
             聯絡請郵件:angelyeung238@gmail.com
           </p>
-              <p>
-                <img src={IMG_888} className='IMG_888'/>
-              </p>
+            <p>
+              <img src={IMG_888} className='IMG_888'/>
+            </p>
          
         </div>
         </div>

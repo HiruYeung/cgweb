@@ -5,8 +5,9 @@ import Page from "./page.js";
 const game = () => {
   return (
     <>
-      
+      <div>
         <Page />
+      </div>
       
     </>
   )
