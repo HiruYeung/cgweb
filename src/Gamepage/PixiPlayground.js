@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useTick, Stage, Container, Sprite, Text } from "@pixi/react";
 import "@pixi/events";
+import './Css.css'
 
 function Bold({ x, image, visible }) {
   return (

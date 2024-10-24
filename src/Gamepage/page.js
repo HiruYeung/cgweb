@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect} from 'react';
 import { Typography, Modal, Box, IconButton } from '@mui/material';
 import { Close } from '@mui/icons-material';
 import Logoimg from './images/Logoimg.jpg';
@@ -13,6 +13,9 @@ const Page = () => {
   const [gameOpen, setGameOpen] = useState(false);
   const bgmRef = useRef(null);
 
+
+
+
   return (
     <>
       <div style={{ position: 'relative' }}>
@@ -25,18 +28,32 @@ const Page = () => {
         </div>
         
         <Modal keepMounted open={gameOpen} onClose={() => setGameOpen(false)}>
-          <Box
+          <Box className="Pixi"
             sx={{
-              width: '80%', // 可以根据需要调整宽度
-              maxWidth: '600px', // 最大宽度
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)', // 居中
+              // width: '80%', // 可以根据需要调整宽度
+              // maxWidth: '600px', // 最大宽度
+              // display: 'flex',
+              // flexDirection: 'column',
+              // justifyContent: 'center',
+              // alignItems: 'center',
+              // position: 'absolute',
+              // top: '50%',
+              // left: '50%',
+              // transform: 'translate(-50%, -50%)', // 居中
+
+              '@media (min-width: 320px) and (max-width: 430px)': {
+                // width: '20%',
+                // maxWidth: '300px',
+                // display: 'flex',
+                // flexDirection: 'column',
+                // justifyContent: 'center',
+                // alignItems: 'center',
+                // position: 'absolute',
+                // top: '50%',
+                // left: '50%',
+                // transform: 'translate(-50%, -50%)', // 居中
+                transform: 'scale(0.3)'
+              },
             }}
           >
             <IconButton aria-label="close" onClick={() => setGameOpen(false)} sx={{ alignSelf: 'flex-end', color: 'white', top: 0, right: 280 }}>
@@ -49,7 +66,7 @@ const Page = () => {
               console.log(bgmRef);
               bgmRef.current.play();
             }}>
-              <PixiPlayground />
+              <PixiPlayground/>
             </button>
             <audio ref={bgmRef} src={BGM} />
           </Box>

@@ -91,9 +91,10 @@
 
   }
 
-  .Plays {
-    width: 430px;
-  }
+
+ 
+
+
   .clearfix::after {
     content: "";
     clear: both;
@@ -112,6 +113,14 @@
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 80); /* Shadow effect */
     letter-spacing: 2px;
+  }
+
+  .Pixi {
+    display: flex;
+    flex-Direction: column;
+    justify-Content: center;
+    align-Items: center;
+    transform: scale(0.3)
   }
 
 
