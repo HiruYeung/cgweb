@@ -205,5 +205,36 @@
 
 }
 
+@media (min-width: 499px) and (max-width: 999px) {
+
+  .Ween3 {
+      margin: 1rem;
+      width: 150px;
+      /* padding-left: 250px; */
+  }
+
+  .Ween6h {
+      margin: 1rem;
+      width: 150px
+  }
+
+  .Ween12h {
+      margin: 1rem;
+      width: 150px;
+
+      
+  }
+}
 
 
+@media (orientation: landscape) {
+
+  .Pixi {
+    display: flex;
+    flex-Direction: column;
+    justify-Content: center;
+    align-Items: center;
+    transform: scale(0.5)
+  }
+
+}
