@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 319px) and (max-width: 430px) {
 
     .clearfix::after {
       content: "";
@@ -82,16 +82,20 @@
 
 
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 319px) and (max-width: 430px) {
 
         .Home {
-            background-image: url('https://i.imgur.com/TCJcg8X.png');
+            background-image: url('https://i.imgur.com/tvOu1l5.png');
+            display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            padding-left: 50px;
-            padding-bottom: 50px;
+            justify-content: center;
+            align-items: center;
+            /* padding-left: 50px; */
+            padding-bottom: 5px;
             background-Size: 'cover';
-            width: 109%;
+            width: 122.8%;
+            padding-right: 50px;
+            box-sizing: border-box; 
             /* padding-right: 50px; */
             /* margin-right: -200px; */
            
@@ -119,7 +123,7 @@
     
 
         .Ween3 {
-            margin: 0.5rem;
+            margin-left: 0.5rem;
             width: 80px
         }
     

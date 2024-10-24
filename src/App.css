@@ -58,7 +58,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 319px) and (max-width: 430px) {
   .Header {
     flex-direction: row;
     justify-content: space-between;
@@ -79,17 +79,21 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
-  /* .Home {
+@media (min-width: 319px) and (max-width: 430px) {
+  .Home {
     padding: 0;
     border: none;
     width: 430px;
     gap: 0;
     position: fixed;
-    height: 200px;
+    /* height: 200px; */
     position: absolute;
 
-  } */
+  }
+
+  .Plays {
+    width: 430px;
+  }
   .clearfix::after {
     content: "";
     clear: both;

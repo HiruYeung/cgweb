@@ -67,7 +67,7 @@ const Home = () => {
                         sx={{
                 
                           color: "white",
-                          '@media (min-width: 320px) and (max-width: 430px)': {
+                          '@media (min-width: 319px) and (max-width: 430px)': {
                             width: '430px',
                             backgroundSize: 'cover',
 
@@ -119,7 +119,7 @@ const Home = () => {
                     sx={{
                       backgroundImage: `url(${Light})`,
                       height:"170rem",
-                      '@media (min-width: 320px) and (max-width: 430px)': {
+                      '@media (min-width: 319px) and (max-width: 430px)': {
                         height: "73rem"
 
                       },
@@ -157,7 +157,7 @@ const Home = () => {
                       marginBottom="2.2rem"
                       sx={{ filter: "blur(0.2px)",
                         color: "white",
-                        '@media (min-width: 320px) and (max-width: 430px)': {
+                        '@media (min-width: 319px) and (max-width: 430px)': {
                             fontSize: '25px',
                             backgroundSize: 'cover',
                             filter: "blur(0px)",
@@ -176,7 +176,7 @@ const Home = () => {
                       textAlign="center"
                       sx={{ filter: "blur(0.2px)",
                         color: "white",
-                        '@media (min-width: 320px) and (max-width: 430px)': {
+                        '@media (min-width: 319px) and (max-width: 430px)': {
                             fontSize: '10px',
                             backgroundSize: 'cover',
                             filter: "blur(0px)",
@@ -201,7 +201,7 @@ const Home = () => {
                       marginTop="6rem"
                       gap="3rem"
                       sx={{ 
-                        '@media (min-width: 320px) and (max-width: 430px)': {
+                        '@media (min-width: 319px) and (max-width: 430px)': {
                             width: '200px',
                             height: '10px',
                             backgroundSize: 'cover',
@@ -231,7 +231,7 @@ const Home = () => {
                           textAlign="center"
                           sx={{ filter: "blur(0.2px)",
                             color: "white",
-                            '@media (min-width: 320px) and (max-width: 430px)': {
+                            '@media (min-width: 319px) and (max-width: 430px)': {
           
                               display: "flex",
                               justifyContent: "center",
@@ -255,7 +255,7 @@ const Home = () => {
                       marginTop="6rem"
                       gap="3rem"
                       sx={{ 
-                        '@media (min-width: 320px) and (max-width: 430px)': {
+                        '@media (min-width: 319px) and (max-width: 430px)': {
                             width: '200px',
                             height: '10px',
                             backgroundSize: 'cover',
@@ -285,7 +285,7 @@ const Home = () => {
                           textAlign="center"
                           sx={{ filter: "blur(0.2px)",
                             color: "white",
-                            '@media (min-width: 320px) and (max-width: 430px)': {
+                            '@media (min-width: 319px) and (max-width: 430px)': {
           
                               display: "flex",
                               justifyContent: "center",
@@ -310,7 +310,7 @@ const Home = () => {
                       gap="2rem"
                       marginTop="6rem"
                       sx={{ 
-                        '@media (min-width: 320px) and (max-width: 430px)': {
+                        '@media (min-width: 319px) and (max-width: 430px)': {
                             width: '300px',
                             height: '10px',
                             backgroundSize: 'cover',
@@ -340,7 +340,7 @@ const Home = () => {
                         textAlign="center"
                         sx={{ filter: "blur(0.2px)",
                           color: "white",
-                          '@media (min-width: 320px) and (max-width: 430px)': {
+                          '@media (min-width: 319px) and (max-width: 430px)': {
           
                             display: "flex",
                             justifyContent: "center",
@@ -366,7 +366,7 @@ const Home = () => {
                         marginBottom="1rem"
                         sx={{ filter: "blur(0.2px)",
                           color: "white",
-                          '@media (min-width: 320px) and (max-width: 430px)': {
+                          '@media (min-width: 319px) and (max-width: 430px)': {
                             fontSize: '25px',
                             backgroundSize: 'cover',
                             filter: "blur(0px)",
@@ -379,7 +379,7 @@ const Home = () => {
                       </Typography>
                       <Box 
                                 sx={{ 
-                                  '@media (min-width: 320px) and (max-width: 430px)': {
+                                  '@media (min-width: 319px) and (max-width: 430px)': {
                                       width: '300px',
                                       height: '10px',
                                       backgroundSize: 'cover',

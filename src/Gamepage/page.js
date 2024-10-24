@@ -18,10 +18,10 @@ const Page = () => {
       <div style={{ position: 'relative' }}>
         <div className='scroll-thumb2' style={{ display: 'flex', gap: '0', position: 'absolute',}}>YeungSuiSum's Mini Web Game</div>
         <img src={Logoimg} className="logo" alt="Logo" style={{ display: 'flex', gap: '0', width: '100%'}}/>
-        <div className='Plays' style={{ display: 'flex', gap: '0'}}>
+        <div className='Plays' style={{ display: 'flex', gap: '0',}}>
           <img src={Blue1} className="Blue1" style={{ display: 'flex', gap: '0', width:'27%'}}/>
           <img onClick={() => setGameOpen(true)} src={Play} className="Play"style={{ display: 'flex', gap: '0', width: '44.7%'}}/>
-          <img src={Blue2} className="Blue2" style={{ display: 'flex', gap: '0', width:'28.27%'}}/>
+          <img src={Blue2} className="Blue2" style={{ display: 'flex', gap: '0', width:'28.50%'}}/>
         </div>
         
         <Modal keepMounted open={gameOpen} onClose={() => setGameOpen(false)}>
