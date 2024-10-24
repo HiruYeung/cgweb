@@ -234,7 +234,11 @@
     flex-Direction: column;
     justify-Content: center;
     align-Items: center;
-    transform: scale(0.5)
+    transform: scale(0.6) translateY(-200px);
+    transform-origin: center;
+    /* top: -100px; */
+    /* transform: translateY(-20px); */
+
   }
 
 }
