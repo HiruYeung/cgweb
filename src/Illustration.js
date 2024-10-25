@@ -10,19 +10,21 @@ import './Illustration.css';
 const Illustration = () => {
     return (
       <>
-      <div className='container1' style={{ gap: '0'}}>
-          <div>
-            <img src={IMG_0666} className="IMG_0660" />
+      <div className='Ill'>
+          <div className='container1' style={{ gap: '0'}}>
+              <div>
+                <img src={IMG_0666} className="IMG_0660" />
+              </div>
+              <div>
+                <img src={IMG_8080} className="IMG_8080" />
+              </div>
           </div>
-          <div>
-            <img src={IMG_8080} className="IMG_8080" />
-          </div>
-      </div>
-      <div className='container2'>
-          <div>
-            <img src={IMG_5577} className="IMG_5577" />
-            <img src={IMG_0029} className="IMG_0029" />
-          </div>
+          <div className='container2'>
+              <div>
+                <img src={IMG_5577} className="IMG_5577" />
+                <img src={IMG_0029} className="IMG_0029" />
+              </div>
+        </div>
       </div>
     </>
     );

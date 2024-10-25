@@ -24,3 +24,26 @@
     width: 480px;
 }
 
+@media (min-width: 319px) and (max-width: 420px) {
+
+    .container1 {
+        margin-top: 250px;
+    }
+    .IMG_0660 {
+        height: 580px;
+    }
+    .IMG_8080 {
+        height: 580px;
+
+    }
+    .container2 {
+        margin-top: 500px;
+    }
+
+    .IMG_5577 {
+        height: 610px;
+    }
+    .IMG_0029 {
+        height: 610px;
+    }
+  }

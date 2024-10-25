@@ -51,7 +51,7 @@ const Blog = () => {
           <img src={IMG_7297} className="IMG_7297" />
         </div>
       </div>
-      <p>2017-8-19</p>
+      <p className='P3'>2017-8-19</p>
       <div className='container3'>
         <div>
           <img src={IMG_3035} className="IMG_3035" />
@@ -63,7 +63,7 @@ const Blog = () => {
           <img src={IMG_3036} className="IMG_3036" />
         </div>
       </div>
-      <p>2017-7-6</p>
+      <p className='P4'>2017-7-6</p>
       <div className='container4'>
         <div className='container4'>
           <img src={IMG_3033} className="IMG_3033" />
