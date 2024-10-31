@@ -8,7 +8,6 @@ const About = () => {
     <div>
         <ScrollableImageContainer/>
           <p>
-            {/* 楊絮心 */}
             Ehiru
             (Yeung Sui Sum)<br />
             此網頁由本人寫出 React + Next.js
@@ -29,7 +28,7 @@ const About = () => {
             使用軟件為 PhotoShop, Clip Studio Paint, 
           </p>
           <p>
-            Instagram: 
+            Instagram: art.ehiru
             {/* 聯絡請郵件:angelyeung238@gmail.com */}
           </p>
             <p>

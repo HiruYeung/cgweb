@@ -31,7 +31,6 @@ const App = () => {
                     <Route path="/cgweb/about" element={<About />} />
                     <Route path="/cgweb/blog" element={<Blog />} />
                     <Route path="/cgweb/Illustration" element={<Illustration />} />
-                    <Route path="/cgweb/CodeProject" element={<CodeProject />} />
                     {/* Add a route for the root path if needed */}
                   </Routes>
             </div>

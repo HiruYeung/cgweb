@@ -46,7 +46,6 @@ const Header = () => {
                 <Link to="/cgweb/about" className="link">About</Link>
                 <Link to="/cgweb/blog" className="link">Blog</Link>
                 <Link to="/cgweb/Illustration" className="link">Illustration</Link>
-                <Link to="/cgweb/CodeProject" className="link">CodeProject</Link>
                 
                 {/* <ScrollableImageContainer/> */}
               </div>
