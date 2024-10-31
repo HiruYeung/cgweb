@@ -8,9 +8,10 @@ const About = () => {
     <div>
         <ScrollableImageContainer/>
           <p>
-            楊絮心
+            {/* 楊絮心 */}
+            Ehiru
             (Yeung Sui Sum)<br />
-            此網頁由本人寫出
+            此網頁由本人寫出 React + Next.js
           </p>
           <p>
             2002年3月8日 香港<br />
@@ -25,11 +26,11 @@ const About = () => {
         </div>
         <div >
           <p>
-            使用軟件為 PhotoShop, Clip Studio Paint
+            使用軟件為 PhotoShop, Clip Studio Paint, 
           </p>
           <p>
-            
-            聯絡請郵件:angelyeung238@gmail.com
+            Instagram: 
+            {/* 聯絡請郵件:angelyeung238@gmail.com */}
           </p>
             <p>
               <img src={IMG_888} className='IMG_888'/>
