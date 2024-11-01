@@ -41,7 +41,7 @@ const Page = () => {
               // left: '50%',
               // transform: 'translate(-50%, -50%)', // 居中
 
-              '@media (min-width: 320px) and (max-width: 430px)': {
+              // '@media (min-width: 320px) and (max-width: 430px)': {
                 // width: '20%',
                 // maxWidth: '300px',
                 // display: 'flex',
@@ -52,8 +52,8 @@ const Page = () => {
                 // top: '50%',
                 // left: '50%',
                 // transform: 'translate(-50%, -50%)', // 居中
-                transform: 'scale(0.3)'
-              },
+              //   transform: 'scale(0.3)'
+              // },
             }}
           >
             <IconButton aria-label="close" onClick={() => setGameOpen(false)} sx={{ alignSelf: 'flex-end', color: 'white', top: 0, right: 280 }}>

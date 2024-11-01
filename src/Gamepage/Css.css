@@ -74,7 +74,12 @@
     align-Items: center;
 }
 
+@media (min-width: 320px) and (max-width: 430px) {
+   .Pixi {
+     transform: scale(0.3)
+   }
 
+ }
 
 @media (min-width: 768px) {
     .page {
@@ -82,3 +87,20 @@
       justify-content: space-between;
     }
   }
+
+
+  @media (min-width: 499px) and (max-width: 2000px) {
+    .Pixi {
+      width: '80%';
+      max-Width: '600px';
+      position: 'absolute';
+      top: '50%';
+      left: '50%';
+      transform: 'translate(-50%, -50%)';
+      transform: scale(0.9);
+      display: flex;
+      flex-Direction: column;
+      justify-Content: center;
+      align-Items: center;
+    }
+}
